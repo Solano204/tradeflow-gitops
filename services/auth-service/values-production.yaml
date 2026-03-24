@@ -1,0 +1,9 @@
+replicaCount: 2             # Run 2 copies for availability in production
+
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "50m"
+  limits:
+    memory: "128Mi"
+    cpu: "100m"

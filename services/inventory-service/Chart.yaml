@@ -1,0 +1,6 @@
+apiVersion: v2
+name: inventory-service
+description: Java Inventory Service — Tracking inventory and assets
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
