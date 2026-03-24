@@ -7,15 +7,18 @@ image:
 
 service:
   type: ClusterIP
-  port: 80
-  targetPort: 8080 # Real Spring Boot Port
+  # Internal discovery port (standardized at 80)
+  port: 80 
+  # FIXED: Matches SERVER_PORT=8086 from your Docker Compose
+  targetPort: 8086 
 
 serviceName: "INVENTORY"
 
 resources:
+  # INCREASED: Safe zone for Java Spring Boot startup
   requests:
-    memory: "64Mi"
-    cpu: "50m"
-  limits:
     memory: "128Mi"
     cpu: "100m"
+  limits:
+    memory: "256Mi"
+    cpu: "200m"

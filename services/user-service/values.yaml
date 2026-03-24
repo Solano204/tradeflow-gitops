@@ -8,7 +8,7 @@ image:
 service:
   type: ClusterIP
   port: 80
-  targetPort: 8080 # Real Spring Boot Port
+  targetPort: 8083 # Real Spring Boot Port
 
 serviceName: "USER"
 
