@@ -15,7 +15,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/api-gateway
   destination:
@@ -35,7 +35,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/auth-service
   destination:
@@ -55,7 +55,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/user-service
   destination:
@@ -75,7 +75,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/inventory-service
   destination:
@@ -95,7 +95,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/order-service
   destination:
@@ -115,7 +115,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/payment-service
   destination:
@@ -135,7 +135,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/notification-service
   destination:
@@ -155,7 +155,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/analytics-service
   destination:
@@ -175,7 +175,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/search-service
   destination:
@@ -195,7 +195,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Solano204/tradeflow-cd.git
+    repoURL: https://github.com/Solano204/tradeflow-gitops.git
     targetRevision: main
     path: apps/reporting-service
   destination:
