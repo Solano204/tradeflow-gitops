@@ -1,5 +1,0 @@
-apiVersion: v2
-name: analytics-service
-description: Real Java Analytics Service
-type: application
-version: 1.0.0
