@@ -1,22 +1,6 @@
-replicaCount: 1
-
-image:
-  repository: 765288911542.dkr.ecr.us-east-1.amazonaws.com/payment-service
-  tag: "1.0.0"
-  pullPolicy: Always
-
-imagePullSecrets:
-  - name: ecr-pull-secret
-
-service:
-  type: ClusterIP
-  port: 80
-  targetPort: 8085
-
-resources:
-  requests:
-    memory: "128Mi"
-    cpu: "100m"
-  limits:
-    memory: "256Mi"
-    cpu: "200m"
+apiVersion: v2
+name: payment-service
+description: Java Payment Service — Processing transactions
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
