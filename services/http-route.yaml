@@ -5,7 +5,7 @@ metadata:
   namespace: production
 spec:
   parentRefs:
-    - name: tradeflow-gateway
+    - name: traefik-gateway
       namespace: traefik
   hostnames:
     - "api.tradeflow.local"
